@@ -16,6 +16,7 @@ contract SimpleWallet {
      * static variables
      */
     // id - sequence number of wallet that was created by `WalletProducer` contract
+    uint static public m_id;
     // Address of contract created this contract.
     address static public m_creator;
 
